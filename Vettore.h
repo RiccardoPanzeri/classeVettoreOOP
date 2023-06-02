@@ -8,6 +8,7 @@ class Vettore {
 private:
 	int* v;
 	int dim;//variabile nella quale conserverò la dimensione del vettore;
+//parte pubblica della classe;
 public:
 //metodo costruttore, crea un vettore dinamico e prende come parametro la dimensione del vettore;	
 	Vettore(int dimensione);
